@@ -4,6 +4,11 @@ A **Flutter-based Smart Ahwa Manager** application that helps café/ahwa owners 
 The app allows adding and managing customer orders, tracking pending/completed ones, and generating simple sales reports (like top-selling drinks).
 
 ---
+## 📽️ Demo
+### 📱 Mobile Version:
+[🔗 Click here to watch the demo video](https://drive.google.com/file/d/1FS7Hlh6c3ah1JXQr9CPGg8ik69S5TlV9/view?usp=sharing)
+
+---
 
 ## 📱 Features
 - Add customer orders with:
@@ -20,8 +25,22 @@ The app allows adding and managing customer orders, tracking pending/completed o
 ---
 
 ## 🏗 Project Structure (MVVM)
+```bash
+lib/
+┣ core/
+┣ orders/
+┃ ┣ data/
+┃ ┃ ┣ models/
+┃ ┃ ┗ service/ 
+┃ ┣ presentation/
+┃ ┃ ┣ manager/ 
+┃ ┃ ┣ view/ 
+┃ ┃ ┗ widgets/ 
+┣ dashboard/ 
+┣ reports/ 
+┗ main.dart 
 
-
+```
 
 This clean separation ensures **modularity, maintainability, and testability**.
 
