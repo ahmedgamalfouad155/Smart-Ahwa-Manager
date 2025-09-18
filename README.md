@@ -23,7 +23,22 @@ The app allows adding and managing customer orders, tracking pending/completed o
 - Built using **MVVM architecture** with clean folder structure
 
 ---
+## 🖼 Screenshots
 
+<p align="center">
+  <img src="https://github.com/ahmedgamalfouad155/Smart-Ahwa-Manager/blob/main/1.png" width="30%" />
+  <img src="https://github.com/ahmedgamalfouad155/Smart-Ahwa-Manager/blob/main/2.png" width="30%" />
+  <img src="https://github.com/ahmedgamalfouad155/Smart-Ahwa-Manager/blob/main/3.png" width="30%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/ahmedgamalfouad155/Smart-Ahwa-Manager/blob/main/4.png" width="30%" />
+  <img src="https://github.com/ahmedgamalfouad155/Smart-Ahwa-Manager/blob/main/5.png" width="30%" />
+  <img src="https://github.com/ahmedgamalfouad155/Smart-Ahwa-Manager/blob/main/6.png" width="30%" />
+  <img src="https://github.com/ahmedgamalfouad155/Smart-Ahwa-Manager/blob/main/7.png" width="30%" />
+</p>
+
+---
 ## 🏗 Project Structure (MVVM)
 ```bash
 lib/
@@ -80,9 +95,6 @@ This clean separation ensures **modularity, maintainability, and testability**.
    - UI (View) depends on abstractions (`OrderViewModel` interface-like behavior) rather than concrete implementations.  
    - Future data storage changes (Hive, Firebase) won’t affect the UI layer.
 
----
-
-## 🖼 Screenshots
 
 ---
 
