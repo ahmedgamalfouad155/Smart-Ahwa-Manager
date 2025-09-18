@@ -82,8 +82,7 @@ This clean separation ensures **modularity, maintainability, and testability**.
 
 ---
 
-## 🖼 Screenshots / Demo
-(Add screenshots of order page, pending dashboard, etc.)
+## 🖼 Screenshots
 
 ---
 
